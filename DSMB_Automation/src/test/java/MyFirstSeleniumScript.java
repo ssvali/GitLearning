@@ -1,0 +1,21 @@
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * Created by SJamdar1 on 18/10/2014.
+ */
+public class MyFirstSeleniumScript
+
+{
+    @Test
+    public void LaunchApp()
+    {
+        WebDriver driver;
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get("http://www.google.com");
+
+
+    }
+}
