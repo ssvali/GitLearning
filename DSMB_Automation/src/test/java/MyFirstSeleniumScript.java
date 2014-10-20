@@ -14,7 +14,9 @@ public class MyFirstSeleniumScript
         WebDriver driver;
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.get("http://www.google.com");
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.get("http://www.google.co.uk");
+        driver.findElement(By.id("gbqfq")).sendKeys("Jenkis");
 
 
     }
