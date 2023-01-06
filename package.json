@@ -1,1 +1,10 @@
-
+{
+  "name": "GitLearning",
+  "version": "1.0.0",
+  "description": "An application",
+  "main": "index.js",
+  "author":"",
+  "dependencies" :{
+	  "junit" : "^4.13.2"
+  }
+}
